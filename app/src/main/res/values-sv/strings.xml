@@ -42,6 +42,7 @@
   <string name="offline_load_error_retry">Försök igen</string>
   <string name="page_error_back_to_main">Gå tillbaka</string>
   <string name="error_back">Gå tillbaka</string>
+  <string name="error_next">Nästa</string>
   <string name="menu_clear_all_history">Rensa historik</string>
   <string name="history_item_deleted">%s togs bort från historiken</string>
   <string name="history_items_deleted">%d artiklar togs bort från historiken</string>
@@ -677,6 +678,7 @@
   <string name="description_ends_with_punctuation">Texten får inte sluta med ett skiljetecken.</string>
   <string name="description_starts_with_article">Undvik att inleda med artiklar som \"ett\" eller \"en\".</string>
   <string name="description_starts_with_uppercase">Börja med liten bokstav om det första ordet inte är ett egennamn.</string>
+  <string name="description_starts_with_lowercase">Undvik att börja med en liten bokstav.</string>
   <string name="description_is_in_different_language">Texten verkar vara på ett oväntat språk. Språket bör vara %s.</string>
   <string name="description_edit_success_saved">Artikelbeskrivningen har publicerats!</string>
   <string name="description_edit_success_saved_snackbar">Artikelbeskrivningen har publicerats!</string>
@@ -779,7 +781,7 @@
   <string name="suggested_edits_onboarding_message">&lt;b&gt;Hej, %s.&lt;/b&gt; Nedan kan du hitta några snabba och enkla sätt att förbättra Wikipedia. Du kommer se skillnaden du gör så fort du kommer igång. Lycka till med redigeringen!</string>
   <string name="suggested_edits_image_captions_task_detail">Beskriv en bild för att hjälpa läsare förstå dess betydelse och sammanhang.</string>
   <string name="suggested_edits_add_descriptions_task_detail">Sammanfatta en artikel för att hjälpa läsare förstå ämnet på ett ögonblick.</string>
-  <string name="suggested_edits_contributions_stat_tooltip">Ditt hittills totala antal bidrag med redigeringsförslag.</string>
+  <string name="suggested_edits_contributions_stat_tooltip">Ditt totala antal bidrag med redigeringsförslag så här långt.</string>
   <string name="suggested_edits_edit_streak_stat_tooltip">Antal dagar i rad du har bidragit. Om du inte har bidragit på ett tag kommer datumet för ditt senaste bidrag visas.</string>
   <string name="suggested_edits_page_views_stat_tooltip">Sidvisningar för objekt till vilka du har bidragit till de senaste 30 dagarna.</string>
   <string name="suggested_edits_edit_quality_stat_tooltip">Baserat på hur många gånger ett av dina bidrag har återställts (blivit ogjord av en annan redigerare). Återställda redigeringar: %d.</string>
@@ -866,14 +868,15 @@
   <string name="suggested_edits_image_recommendations_task_get_started">Starta</string>
   <string name="suggested_edits_image_recommendations_task_goal_progress">Utmärkt, fortsätt så! 👍</string>
   <string name="suggested_edits_image_recommendations_task_goal_complete">Dagligt mål uppnått! 👏</string>
-  <string name="suggested_edits_image_recommendations_task_goal_surpassed">Du har nått målsättningen</string>
+  <string name="suggested_edits_image_recommendations_task_goal_surpassed">Du har nått dagens målsättning</string>
   <string name="suggested_edits_image_recommendations_onboarding_tooltip">Det finns nya föreslagna redigeringar. Träna en algoritm för att para bilder med ännu inte illustrerade artiklar.</string>
-  <string name="suggested_edits_image_recommendations_onboarding_text1">Wikipediaartiklar skrivs och redigeras av tusentals frivilliga över hela världen. Tyvärr saknas med bilder i många artiklar.\n\nBilder föreslås för dig enligt en algoritm. Algoritmen tar bilder från andra källor och förslår en matchningar med en artikel som saknar bild.\n\nDin återkoppling hjälper oss förbättra förslagen över tid. Målet med uppgiften är att föreslå bilder, matchningarna du skickar in kommer för tillfället inte att publiceras.</string>
+  <string name="suggested_edits_image_recommendations_onboarding_text1">Wikipediaartiklar skrivs och redigeras av tusentals frivilliga över hela världen. Tyvärr saknas bilder i många artiklar.\n\nBilder föreslås för dig enligt en algoritm. Algoritmen tar bilder från andra källor och förslår en matchningar med en artikel som saknar bild.\n\nDin återkoppling hjälper oss förbättra förslagen över tid. Målet med uppgiften är att föreslå bilder, matchningarna du skickar in kommer för tillfället inte att publiceras.</string>
   <string name="suggested_edits_image_recommendations_onboarding_text2">Vi skulle vilja erkänna ditt bidrag i arbetet. Vill du att vi visar ditt användarnamn på vår algoritmträningssida?</string>
   <string name="suggested_edits_image_recommendations_onboarding_consent">Ja, mitt användarnamn kan visas på bildalgoritmens träningssida</string>
   <string name="file_page_activity_title">Filsida</string>
   <string name="file_page_add_image_caption_button">Lägg till bildtext</string>
   <string name="file_page_add_image_tags_button">Lägg till bildtaggar</string>
+  <string name="file_page_suggestion_reason">Förslagsanledning</string>
   <string name="description_edit_revert_subtitle">Tack för att du redigerar på Wikipedia!</string>
   <string name="description_edit_revert_intro">Vi vet att du försökte ditt bästa men en av korrekturläsarna hade en invändning. Möjliga anledningar till att din redigering gjordes om inkluderar:</string>
   <string name="description_edit_revert_reason1">ditt bidrag följde inte en av &lt;a href=\"%1$s\"&gt;riktlinjerna&lt;/a&gt;.</string>
@@ -950,9 +953,10 @@
   <string name="image_recommendations_task_reject">Nej</string>
   <string name="image_recommendations_task_not_sure">Osäker</string>
   <string name="image_recommendations_task_processing">Bearbetar...</string>
-  <string name="image_recommendations_task_daily_amount">%d/%d</string>
   <string name="image_recommendations_task_instruction">Skulle du lägga till den här bilden i artikeln?</string>
   <string name="image_recommendations_task_choice_no">Varför valde du nej?</string>
+  <string name="image_recommendations_task_choice_not_sure">Varför är du osäker?</string>
+  <string name="image_recommendations_prompt_to_choose_reasons">Välj en av flera anledningar.</string>
   <string name="image_recommendations_task_choice_unsure">Varför är du osäker på den här bilden?</string>
   <string name="image_recommendations_task_choice_not_relevant">Inte relevant</string>
   <string name="image_recommendations_task_choice_low_quality">Lågkvalité</string>
@@ -965,6 +969,9 @@
   <string name="image_recommendations_task_choice_other">Övrigt</string>
   <string name="image_recommendations_task_choice_continue">Fortsätt</string>
   <string name="image_recommendations_task_suggestion_reason">&lt;b&gt;Förslagsorsak:&lt;/b&gt; %s</string>
+  <string name="image_recommendations_task_suggestion_reason_wikilist">bilden hittades på andra språkversioner av Wikipedia (%s)</string>
+  <string name="image_recommendations_task_suggestion_reason_wikidata">bilden hittades på Wikidata, Wikipedias källa av öppen data</string>
+  <string name="image_recommendations_task_suggestion_reason_commons">bilden hittades på Wikimedia Commons, Wikipedias källa av fritt användbara bilder</string>
   <string name="image_recommendations_faq">Vanliga frågor</string>
   <string name="image_recommendations_tooltip1">Granska denna artikel för att förstå dess ämne.</string>
   <string name="image_recommendations_tooltip2">Inspektera bilden och dess associerade information.</string>

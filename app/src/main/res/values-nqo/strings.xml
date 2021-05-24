@@ -699,7 +699,7 @@
   <string name="suggested_edits_image_recommendations_task_get_started">ߊ߬ ߘߊߡߌ߬ߣߊ߬</string>
   <string name="suggested_edits_image_recommendations_task_goal_progress">ߔߊߞߌ߫߹ ߌ ߘߐߖߵߊ߬ ߞߊ߲߬ ߘߋ߬߹  👍</string>
   <string name="suggested_edits_image_recommendations_task_goal_complete">ߕߋ߬ߟߋ߲ ߟߊ߬ߢߌߣߌ߲ ߓߘߊ߫ ߞߎ߲߭ߝߊ߰߹ 👏</string>
-  <string name="suggested_edits_image_recommendations_task_goal_surpassed">ߌ ߓߘߊ߫ ߛߋ߫ ߟߊ߬ߢߌߣߌ߲ ߘߐ߫߹</string>
+  <string name="suggested_edits_image_recommendations_task_goal_surpassed" fuzzy="true">ߌ ߓߘߊ߫ ߛߋ߫ ߟߊ߬ߢߌߣߌ߲ ߘߐ߫߹</string>
   <string name="file_page_activity_title">ߞߐߕߐ߯ ߞߐߜߍ</string>
   <string name="file_page_add_image_caption_button">ߖߌ߬ߦߊ߬ߓߍ ߝߍ߬ߛߓߍߟߌ ߝߊ߬ߙߊ߫</string>
   <string name="file_page_add_image_tags_button">ߖߌ߬ߦߊ߬ߓߍ ߘߎ߲ߛߓߍ ߟߎ߬ ߝߙߊ߬</string>
@@ -767,7 +767,6 @@
   <string name="image_recommendations_task_accept">ߊ߬ߥߐ߫</string>
   <string name="image_recommendations_task_reject">ߍ߲߬ߍ߲߫</string>
   <string name="image_recommendations_task_not_sure">ߒ ߡߊ߫ ߟߊ߫ ߏ߬ ߟߊ߫</string>
-  <string name="image_recommendations_task_daily_amount">%d/%d</string>
   <string name="image_recommendations_task_instruction">ߌ ߘߌ߫ ߖߌ߬ߦߊ߬ߓߍ ߣߌ߲߬ ߓߌ߬ߟߊ߬ ߞߎߡߘߊ ߟߊ߫ ߓߊ߬؟</string>
   <string name="image_recommendations_task_choice_no">ߡߎ߲߬ߠߊ߫ ߌ ߞߊ߬ ߍ߲߬ߍ߲߫ ߓߊߕߐ߬ߡߐ߲߬؟</string>
   <string name="image_recommendations_task_choice_unsure">ߡߎ߲߬ߠߊ߫ ߌ ߡߊ߫ ߟߊ߫ ߖߌ߬ߦߊ߬ߓߍ ߣߌ߲߬ ߠߊ߫؟</string>
